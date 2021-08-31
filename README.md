@@ -24,3 +24,11 @@ Also, its very possible that the script will click in the wrong place when tryin
 ### Can i get banned for using this?:
 
 Dunno, let me know.
+
+### Why didn`t you use twilio?:
+
+People would have received the message from twilio, then think "who is this?" **block**
+
+### Why does it take so much time?:
+
+I made it in less than 2 hours please don`t ask that much from me.
