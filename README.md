@@ -12,6 +12,7 @@ Well, in the weird case that you want to do the same as me, follow these steps:
 - Make sure to be logged in your whatsapp web account
 - `$ python3 -m venv venv; source venv/bin/activate; pip install -r requirements.txt`
 - Create a file named people.py and write a list with all the numbers (as strings) of the people you want to send the message to.
+- Set the message variable in the main function to the message you want to send
 - Run the script using `python main.py`
 - Open your browser and click on it
 
