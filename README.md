@@ -1,4 +1,4 @@
-# <center>Whatsapp Difusser
+# <center>Whatsapp Diffuser
 
 ## Why?:
 
