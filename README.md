@@ -15,7 +15,7 @@ Well, in the weird case that you want to do the same as me, follow these steps:
 - Run the script using `python main.py`
 - Open your browser and click on it
 
-Also, its very possible that the script will click in the wrong place when trying to send the message, so make sure to set the x and y in main.py line 19 to your writing bar in whatsapp web.
+Also, its very possible that the script will click in the wrong place when trying to send the message, so make sure to set the x and y in main.py line 19 to your writing bar in whatsapp web (I wont do a generic version in future commits, sorry).
 
 ## FAQ:
 
