@@ -9,15 +9,11 @@ from utils import *
 # Function stolen (but adapted) from pywhatkit https://github.com/Ankit404butfound/PyWhatKit
 def instantmsg(phone_no: str, message: str,lastmsg : bool) -> None:
     parsed_message = quote(message)
-    timePrint(colored("Opening whatsapp",'white'))
     open('https://web.whatsapp.com/send?phone=' +
                 phone_no + '&text=' + parsed_message,new=0)
-    timePrint(colored("Waiting...",'yellow'))
     sleep(12)
-    timePrint(colored("Clicking",'white'))
     #!Pretty adapted to my screen hehe sorry
     click(x=4229, y=1612)
-    timePrint(colored("Pressing Enter",'white'))
     press('enter')
     if not lastmsg:
         timePrint(colored("Waiting to go again...",'yellow'))
@@ -32,13 +28,13 @@ def sendAndLog (to,msg,lastmsg):
 
 
 def main ():
-    message = "!!"
+    from message import message
     print(colored("You have 4 seconds to open your browser!",'magenta'))
     sleep(4)
     for i in range(0,len(people)):
         sendAndLog(people[i],message,i == len(people) - 1)
 
-    print(colored("Done!",'green'))
+    print(colored("Done!, sent message to " + str(len(people)) + ' numbers','green'))
 
 if __name__ == '__main__':
     main()

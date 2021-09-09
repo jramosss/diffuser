@@ -2,3 +2,5 @@ people.py
 __pycache__
 venv
 pywhatkit_dbs.txt
+data/
+message.py
